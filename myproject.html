@@ -6,16 +6,51 @@
     <title>Темная тема</title>
     <style>
         body {
-            background-color: #000000; /* Чёрный цвет фона */
-            color: #ffffff;            /* Белый цвет текста */
-            margin: 0;                 /* Убираем белые/серые отступы по краям */
-            min-height: 100vh;         /
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        /* Контейнер для наших колонок текста */
+        .text-container {
+            display: flex;
+            gap: 40px;       /* Расстояние (пустота) между колонками */
+            padding: 20px;   /* Отступ от краев экрана */
+        }
+
+        /* Настройки для каждой отдельной колонки */
+        .text-column {
+            flex: 1;         /* Делает колонки одинаковыми по ширине */
         }
     </style>
 </head>
 <body>
-    <h1>PornoHub</h1>
-    <p>Здесь будет много порно</p>
-    <img src="Без названия.jpeg">
+    <h1 style="padding-left: 20px;">PornoHub</h1>
+    
+    <!-- Оборачиваем наши тексты в общий контейнер -->
+    <div class="text-container">
+        
+        <!-- Первая колонка (левая) -->
+        <div class="text-column">
+            <p>CuteFemboys</p>
+            <img style="padding-left: 20px;" src="Femboy.jpg" width="300">
+            <img style="padding-left: 20px;" src="aa64662df9387c8191932bad1e64bf84.jpg" width="300">
+            <img style="padding-left: 20px;" src="st,medium,507x507-pad,600x600,f8f8f8.jpg" width="300">
+        </div>
+        
+        <!-- Вторая колонка (правая) -->
+        <div class="text-column">
+            <p>CuteFemboys</p>
+            <img style="padding-left: 20px;" src="Без названия.jpeg" width="300">
+            <img style="padding-left: 20px;" src="Без названия (1).jpeg" width="300">
+            <img style="padding-left: 20px;" src="Без названия.jpeg" width="300">
+        </div>
+
+    </div>
+
+    <!-- Картинка просто идет следом -->
+
+
 </body>
 </html>
